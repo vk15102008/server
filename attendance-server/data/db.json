@@ -1,0 +1,119 @@
+{
+  "students": [],
+  "records": [],
+  "announcements": [],
+  "assignments": [],
+  "invoices": [],
+  "timetable": [],
+  "payments": [],
+  "users": [
+    {
+      "email": "san@kkta.ac.in",
+      "passwordHash": "2357a90fe4b93de77acb43eeaaa1fd1977a6c2b6902df856dbecb59c6823e7da962e2dd6b4f5b15d5b555990f7ec6b3e0712a8f6ade5940db71a83c5dc4d9575",
+      "salt": "80e2072e7c5ae6e07337874803bd062a",
+      "role": "teacher",
+      "studentId": null,
+      "dob": "",
+      "mustChangePassword": false,
+      "createdAt": "2026-11-05"
+    },
+    {
+      "email": "aarav@example.com",
+      "role": "student",
+      "studentId": 1,
+      "salt": "d194826da25b9d04a241ef27e659d3bb",
+      "passwordHash": "ae0d7d977775b8a302a216d0ddd048f95b9d0f7fc7b449e7dc54e344832c3cf04fef24a5557cfee4f047da97b7099154cc928ef5fb9bbd9b31118368eb563a0d",
+      "dob": "14052008",
+      "mustChangePassword": false,
+      "createdAt": "2026-11-06",
+      "passwordChangedAt": "2026-11-06T04:27:17.102Z"
+    },
+    {
+      "email": "parent1@example.com",
+      "role": "parent",
+      "studentId": 1,
+      "salt": "3e4b46fa63fe00ae780ce8defb85dbf1",
+      "passwordHash": "b46ee7427b3c5160d74ebc78f70aee57519b045afafde5b7d7cebc618206da897a68b2e5db27da18c97beb29cd18fd951c61c164997c70bd5b077c0240194a42",
+      "dob": "",
+      "mustChangePassword": false,
+      "createdAt": "2026-11-06"
+    }
+  ],
+  "messages": [],
+  "notifications": [],
+  "profiles": {
+    "teacher@kkta.ac.in": {
+      "name": "",
+      "phone": "",
+      "updatedAt": "2026-11-05T18:22:56.1511947+05:30"
+    }
+  },
+  "tokens": [
+    [
+      "b44488095ac14fb2911284df368c3e9827d3f66537f025a7",
+      {
+        "email": "aarav@example.com",
+        "role": "student",
+        "studentId": 1,
+        "expiresAt": 1796535175020
+      }
+    ],
+    [
+      "ab531ac1f23dda125e26c96c7b10a6da0f705643250622c6",
+      {
+        "email": "parent1@example.com",
+        "role": "parent",
+        "studentId": 1,
+        "expiresAt": 1796535175085
+      }
+    ],
+    [
+      "65db4c3ca3669242a5e5afba15949013444d3f7752e840ff",
+      {
+        "email": "san@kkta.ac.in",
+        "role": "teacher",
+        "studentId": null,
+        "expiresAt": 1796535303880
+      }
+    ]
+  ],
+  "sessions": [
+    [
+      "1:2026-11-06",
+      {
+        "batchId": 1,
+        "date": "2026-11-06",
+        "source": "otp"
+      }
+    ],
+    [
+      "2:2026-11-06",
+      {
+        "batchId": 2,
+        "date": "2026-11-06",
+        "source": "otp"
+      }
+    ]
+  ],
+  "usedOtpKeys": [],
+  "activeOtps": [
+    [
+      "1:784952",
+      {
+        "code": "784952",
+        "batchId": 1,
+        "createdAt": 1793943374455,
+        "expiresAt": 1793943554455
+      }
+    ],
+    [
+      "2:903331",
+      {
+        "code": "903331",
+        "batchId": 2,
+        "createdAt": 1793943384037,
+        "expiresAt": 1793943564037
+      }
+    ]
+  ]
+}
